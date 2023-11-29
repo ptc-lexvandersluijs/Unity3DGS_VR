@@ -9,6 +9,8 @@ It's easy to add more datasets to the scene: just use the GS Asset creation tool
 
 Developed and tested with Unity 2023.1.14f1, and HTC Vive. Interaction profiles for other headsets have been added in the OpenXR settings, but not tested.
 
+This is a personal innovation / learning project, it's not PTC software. No warranty, fitness for purpose, liability (and so on) is implied or given. 
+
 # Practical notes
 - You need to manually enable the right GameObject "GaussianSplats [xxx]" before going to Play mode.
 - I get best results when I minimize the Unity Editor (or close the Game panel) before putting on the headset.
@@ -23,4 +25,4 @@ Developed and tested with Unity 2023.1.14f1, and HTC Vive. Interaction profiles 
 Same as the source project that I based this on, so MIT license.
 
 # Contact
-Lex van der Sluijs (lvandersluijs -youknowthedrill- ptc.com)
+Lex van der Sluijs, PTC (lvandersluijs -youknowthedrill- ptc.com)
