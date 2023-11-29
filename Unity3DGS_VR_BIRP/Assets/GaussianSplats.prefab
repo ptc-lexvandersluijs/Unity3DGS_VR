@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5162902988228341345
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4597920822537917979}
+  - component: {fileID: 585477376882367980}
+  m_Layer: 0
+  m_Name: GaussianSplats
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4597920822537917979
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5162902988228341345}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.93462974, y: -0.013866574, z: -0.0052715745, w: 0.35531273}
+  m_LocalPosition: {x: 0.06, y: 1.67, z: 0.73}
+  m_LocalScale: {x: 0.2, y: 0.2, z: -0.2}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &585477376882367980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5162902988228341345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6140b00d7dc0424488eeed01af24874c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Asset: {fileID: 11400000, guid: a28b2a2462cff30428c58ba19fb5a369, type: 2}
+  m_SplatScale: 1
+  m_OpacityScale: 1
+  m_SHOrder: 3
+  m_SHOnly: 0
+  m_SortNthFrame: 1
+  m_RenderMode: 0
+  m_PointDisplaySize: 3
+  m_Cutouts: []
+  m_ShaderSplats: {fileID: 4800000, guid: 61174e29ab434004bae589e5bee23370, type: 3}
+  m_ShaderComposite: {fileID: 4800000, guid: b97dad6184940504db5ce04aaf634ee8, type: 3}
+  m_ShaderDebugPoints: {fileID: 4800000, guid: bf6c2c66af7895b49b62512bcac171c0, type: 3}
+  m_ShaderDebugBoxes: {fileID: 4800000, guid: d3d9874e639e8b743b36d586fb748c6c, type: 3}
+  m_CSSplatUtilities: {fileID: 7200000, guid: 0f1729af11d1d224bb84695908d415de, type: 3}
