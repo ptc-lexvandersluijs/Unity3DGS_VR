@@ -1,5 +1,5 @@
 # Unity3DGS_VR
-This is my VR version of Aras' Toy 3D Gaussian Splatting project: https://github.com/aras-p/UnityGaussianSplatting. This repository contains a copy of the 'package' folder from the source project, in order to freeze it / make sure this project doesn't break when there are updates there.
+This is my VR version of Aras' Toy 3D Gaussian Splatting project: https://github.com/aras-p/UnityGaussianSplatting. This repository contains a copy of the 'package' folder from the source project, in order to freeze it / make sure this project doesn't break when there are updates there. There is only a version for the Built-In Render Pipeline (BIRP) at the moment, so not for URP or HDRP.
 
 The project includes 3 pre-made Gaussian Splats assets: Bicycle, Playroom and Bonsai. These are included for two reasons: a) these look good and perform well on the hardware used to test (NVidia RTX 3080 laptop), and b) the scene has been prepared for them, by rotating and scaling them to a pose that makes sense in VR, and by adding a floor with a collider for the user to walk on.
 
